@@ -1,0 +1,128 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+  margin: 0;
+  color: #40514E;
+}
+
+h1 {
+  padding-right: 40px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color:  #66BFBF
+}
+
+h2 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color:  #66BFBF
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  color:#11999E;
+}
+
+a{
+  color:#11999E;
+  margin: 2%;
+  padding-bottom: 2%;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+.hr{
+  width :60px;
+  margin: 50px auto 50px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  border-color: gray;
+
+}
+
+.mys{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.mys2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.sp {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  display: inline-block;
+  position: relative;
+  margin: auto auto auto 45%;
+}
+
+.bottom-cloud {
+  display: block;
+  position: relative;
+  margin: auto auto auto 25%;
+}
+
+.mountain {}
+
+.skill-row {
+  margin: 100px auto 170px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.div0 {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.div1 {}
+
+.div2 {
+  background-color: #66BFBF;
+  margin-top: 40px;
+  padding: 40px 0 20px 0;
+}
+
+.contact-me{
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  background: #66bfbf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
